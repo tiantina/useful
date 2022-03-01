@@ -3,6 +3,6 @@ project(show)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_library(${PROJECT_NAME} INTERFACE)
+add_library(lizhengtao INTERFACE)
 
-target_include_directories(show INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(lizhengtao INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
